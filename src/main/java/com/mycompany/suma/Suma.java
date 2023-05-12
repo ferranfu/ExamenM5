@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
 package com.mycompany.suma;
 
-/**
- *
- * @author alumne
- */
 public class Suma {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public double Sumar(double numeroA, double numeroB) {
+        double suma = numeroA + numeroB;
+        return suma;
     }
+
 }
